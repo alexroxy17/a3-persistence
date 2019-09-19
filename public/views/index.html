@@ -1,0 +1,56 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lowdb Example</title>
+    <meta name="description" content="Lowdb Example">
+    <link id="favicon" rel="icon" href="https://glitch.com/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/milligram/1.3.0/milligram.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+        Your Grocery List
+      </h1>
+    </header>
+
+    <main>
+      <p>Add a new Item to your list:</p>
+      <form>
+        <input id="iName" type="text" maxlength="100" placeholder="Item Name"> 
+        <input id="amount" type="number" maxlength="100" placeholder="1?"> 
+        <button type="submit">Add</button>
+      </form>
+      
+      <h2>Grocery List:</h2>
+      <section class="groceries">
+        <ul id="groceries">
+        </ul>
+        <div id = "table" class = "labelInput"></div>
+      </section>
+      <p><a href="/clear">Delete All</a></p>
+    </main>
+
+
+
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+            crossorigin="anonymous"></script>
+    <script src="/client.js"></script>
+
+    <script>
+      
+    
+    </script>
+    
+    
+  </body>
+</html>
+
